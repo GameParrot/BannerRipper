@@ -1,4 +1,4 @@
-# bannerripper
+# BannerRipper
 
 BannerRipper downloads YouTube channel banner images straight from YouTube in the highest TV resolution (full image).
 
