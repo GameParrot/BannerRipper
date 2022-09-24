@@ -1,0 +1,14 @@
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
+DerivedData/
+.swiftpm/config/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+/bannerripper_mac
+/bannerripper_linux
+/bannerripper_mac.zip
+/bannerripper_linux.zip
+/bin
