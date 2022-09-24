@@ -8,4 +8,4 @@ Simple run bannerripper with the channel URL and output path (optional). If no a
 
 # Building
 
-Simply chdir into the package directory and build using `swift build`.
+Simply chdir into the package directory and build using `make`. The release version can be build using `make release`.
