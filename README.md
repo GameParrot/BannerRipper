@@ -16,4 +16,4 @@ To download the banner for a YouTube channel at https://www.youtube.com/c/GitHub
 
 # Windows
 
-To build on Windows, you have to replace the `sleep(300)` with `try? await Task.sleep(nanoseconds: 300_000_000_000)`. You shout also remove `setbuf(stdout, nil)` and `setbuf(stderr, nil)`.
+To build on Windows, you have to replace the `sleep(300)` with `try? await Task.sleep(nanoseconds: 300_000_000_000)`. You should also remove `setbuf(stdout, nil)` and `setbuf(stderr, nil)`.
