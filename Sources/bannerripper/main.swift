@@ -7,7 +7,7 @@ var channelUrl = ""
 setbuf(stdout, nil)
 setbuf(stderr, nil)
 if argv.contains("-h") || argv.contains("--help") {
-    print("usage: bannerripper <channel_url> <output_path>\nIf \nIf channel_url is not specified (no arguments passed), then the user will be asked to provide a channel URL.\nIf output_path is not specified, then the last path component of the URL will be used. The file extension should be jpg.")
+    print("usage: bannerripper <channel_url> <output_path>\nIf channel_url is not specified (no arguments passed), then the user will be asked to provide a channel URL.\nIf output_path is not specified, then the last path component of the URL will be used. The file extension should be jpg.")
     exit(0)
 }
 if argv.count < 2 {
