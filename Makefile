@@ -54,4 +54,3 @@ install:
 	-mkdir "$(prefix)/bin"
 	cp ./bin/* "$(prefix)/bin/"
 	@echo "\033[32;1mSuccessfully installed bannerripper\033[0m"
-	
