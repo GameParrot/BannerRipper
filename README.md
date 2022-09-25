@@ -13,3 +13,7 @@ Simply chdir into the package directory and build using `make`. The release vers
 # Example
 
 To download the banner for a YouTube channel at https://www.youtube.com/c/GitHub and save the banner to a file named TestBanner.jpg, use `bannerripper https://www.youtube.com/c/GitHub TestBanner.jpg`
+
+# Windows
+
+To build on Windows, you have to replace the `sleep(300)` with `try? await Task.sleep(nanoseconds: 300_000_000_000)`. You shout also remove `setbuf(stdout, nil)` and `setbuf(stderr, nil)`.
